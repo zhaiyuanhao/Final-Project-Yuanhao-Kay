@@ -1,0 +1,55 @@
+---
+title: "Final Project: NYC Property Sales Predictor"
+subtitle: "An prediction training by random forest model on NYC property saling price"
+---
+
+## Background and exploratory analysis
+
+Our project explores the housing price trend in New York City, attempting to understanding what factors affect the sale prices most and developing a model that could effectively predict sale prices. We obtained the property sale data from the NYC Open Data using API. A quick exploration of the dataset informs that the average sale price per unit is around 400. We expected that housing prices is likely to be influenced by the safety level of the area that housing is located. Thus, we obtained the New York Policy Department’s arrest data. We also included conventional factors in the Census dataset, including total population, total housing units, mean travel time to work, median household income, total households, and people in labor force, which we believe could depict the demographic status of a specific area.
+
+
+::: {.callout-important}
+The code for this Final Project is hosted on our course's GitHub page: [https://github.com/zhaiyuanhao/Final-Project-Yuanhao-Kay.git](https://github.com/zhaiyuanhao/Final-Project-Yuanhao-Kay.git).
+:::
+
+## Our Data Source
+
+#### Annualized Sales Update
+
+Annualized Sales files display yearly sales information of properties sold in New York City. These files also have information such as neighborhood, building type, square footage and other data. You can find neighborhood and citywide sales data here starting with 2007. You can also find Annualized Sales files here starting with 2003 when sales data was first listed on the public record.
+
+[NYC Citywide Annualized Calendar Sales Update](https://data.cityofnewyork.us/resource/w2pb-icbu.json)
+
+#### 2020 Census Tracts - Tabular
+
+2020 Census Tracts from the US Census for New York City. These boundary files are derived from the US Census Bureau's TIGER data products and have been geographically modified to fit the New York City base map. All previously released versions of this data are available at BYTES of the BIG APPLE- Archive.
+
+[NYC 2020 census tract](https://data.cityofnewyork.us/api/geospatial/63ge-mke6?date=20231219&accessType=DOWNLOAD&method=export&format=GeoJSON)
+
+#### NYPD Arrest Data (Year to Date)
+
+This is a breakdown of every arrest effected in NYC by the NYPD during the current year.
+This data is manually extracted every quarter and reviewed by the Office of Management Analysis and Planning.
+Each record represents an arrest effected in NYC by the NYPD and includes information about the type of crime, the location and time of enforcement.
+In addition, information related to suspect demographics is also included.
+This data can be used by the public to explore the nature of police enforcement activity.
+Please refer to the attached data footnotes for additional information about this dataset.
+
+[NYPD Arrest Data (Year to Date)](https://data.cityofnewyork.us/resource/uip8-fykc.json)
+
+## Method
+
+We chose **Random Forest** instead of traditional regression model because of the possible non-linear relationship embedded in our features and also because it could effectively reduce the risk of overfitting. 
+
+## Author
+
+- Yuanhao Zhai
+
+- Kay Li
+
+
+
+
+
+
+ 

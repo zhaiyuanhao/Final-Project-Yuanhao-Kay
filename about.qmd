@@ -1,35 +1,65 @@
 ---
-title: "About me"
+title: "About Our Team"
 ---
 
 <!-- Use a grid -->
 ::: {.grid}
 
 <!-- Left column has a width of 4/12 and shows a picture of me -->
-::: {.g-col-4}
-![](images/nickhand-profile.jpg){width=3in}
+::: {.g-col-3}
+![](images/Yuanhao_Photo.jpeg){width=3in}
 :::
 
 <!-- Text gets a column with width 8/12 -->
-::: {.g-col-8}
+::: {.g-col-9}
+## Yuanhao Zhai
 
-On this about page, you might want to add more information about yourself, 
-the project, or course. Any helpful context could go here!
+#### About Me
 
-My name is Nick Hand, the instructor for the course. You can find more 
-information about me on my [personal website](https://www.nickhand.dev/).
+Hi! I am Yuanhao Zhai, a Graduate Candidate of Master of City Planning in the University of Pennslyvania. 
+I am really interested in the  the Urban Policy and Urban Data related topic. If you want to find more information about me, please contact me by my e-mail, linkedin, or whatsapp.
 
-This site is an example site showing how to use Quarto for 
-the final project for [MUSA 550](https://musa-550-fall-2023.github.io/),
-during fall 2023. 
+#### In This Project
 
-Adipisicing proident minim non non dolor quis. Pariatur in ipsum aliquip magna. Qui ad aliqua nulla excepteur dolor nostrud quis nisi. Occaecat proident eiusmod in cupidatat. Elit qui laboris sit aliquip proident dolore. Officia commodo commodo in eiusmod aliqua sint cupidatat consectetur aliqua sint reprehenderit.
+In this project I was mainly responsible for data collection and analysis, code writing and website design. You are welcome to communicate with me with the specific methodology and building process of the project.
 
-Occaecat incididunt esse et elit adipisicing sit est cupidatat consequat. Incididunt exercitation amet dolor non sit anim veniam veniam sint velit. Labore irure reprehenderit ut esse. Minim quis commodo nisi voluptate.
+#### Contact Information
+
+- Whatsapp acount: [267(251)3988](+12672513988)
+
+- E-mail: [zyuanhao@upenn.edu](zyuanhao@upenn.edu)
+
+- LinkedIn Link: [My Link](www.linkedin.com/in/yuanhao-zhai-593875248)
 
 ::: 
 
 :::
 
+
+::: {.grid}
+
+<!-- Left column has a width of 4/12 and shows a picture of me -->
+::: {.g-col-3}
+![](images/KayLi_Photo.jpeg){width=3in}
+:::
+
+<!-- Text gets a column with width 8/12 -->
+::: {.g-col-9}
+## Kay Li
+
+#### About Me
+
+Kaye is a second-year master of city planning student concentrating on public private development. She is interested in real estate investment and development and and urban economics.
+
+#### In This Project
+
+In this project: I was responsible for data analysis. developing and writing data storyboarding. 
+
+#### Contact Information
+
+- Please contact me at [yuke@upenn.edu](yuke@upenn.edu)
+:::
+
+:::
 
 
